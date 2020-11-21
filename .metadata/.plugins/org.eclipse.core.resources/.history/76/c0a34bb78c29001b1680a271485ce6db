@@ -1,0 +1,86 @@
+package webjdbc;
+
+public class Medicine {
+
+	private int id;
+	private String medicineName;
+	//private String category;
+	private int units;
+	private double cost;
+	private String mfgDate;
+	private String expDate;
+
+	
+	public Medicine(int id, String medicineName, int units, double cost, String mfgDate, String expDate) {
+		super();
+		this.id = id;
+		this.medicineName = medicineName;
+		this.units = units;
+		this.cost = cost;
+		this.mfgDate = mfgDate;
+		this.expDate = expDate;
+	}
+	
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+
+	public String getMedicineName() {
+		return medicineName;
+	}
+
+	public void setMedicineName(String medicineName) {
+		this.medicineName = medicineName;
+	}
+
+
+	public int getUnits() {
+		return units;
+	}
+
+	public void setUnits(int units) {
+		this.units = units;
+	}
+
+
+	public double getCost() {
+		return cost;
+	}
+
+	public void setCost(double cost) {
+		this.cost = cost;
+	}
+
+
+	public String getMfgDate() {
+		return mfgDate;
+	}
+
+	public void setMfgDate(String mfgDate) {
+		this.mfgDate = mfgDate;
+	}
+
+	public String getExpDate() {
+		return expDate;
+	}
+
+	public void setExpDate(String expDate) {
+		this.expDate = expDate;
+	}
+
+
+
+
+	@Override
+	public String toString() {
+		return "Medicine [id=" + id + ", Medicine Name=" + medicineName + ", units=" + units +
+				", cost=" + cost + "]";
+	}
+
+}

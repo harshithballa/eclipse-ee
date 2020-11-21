@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;webjdbc.Student.course&apos; in &apos;webjdbc.Student&apos;&#x0D;&#x0A;- Original project: &apos;web-student-tracker&apos;&#x0D;&#x0A;- Original element: &apos;webjdbc.Student.course&apos;&#x0D;&#x0A;- Getter method name: &apos;getCourse&apos;&#x0D;&#x0A;- Setter method name: &apos;setCourse&apos;&#x0D;&#x0A;- Field visibility: &apos;public&apos;&#x0D;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;course&apos;" flags="589830" getter="getCourse" id="org.eclipse.jdt.ui.self.encapsulate" input="/src&lt;webjdbc{Student.java[Student^course" insertion="12" setter="setCourse" stamp="1603552437193" version="1.0" visibility="1"/>
+</session>

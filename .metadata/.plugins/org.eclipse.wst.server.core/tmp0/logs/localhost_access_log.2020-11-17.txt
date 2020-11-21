@@ -1,0 +1,8 @@
+127.0.0.1 - - [17/Nov/2020:13:45:34 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [17/Nov/2020:13:45:35 +0530] "GET /web-student-tracker/StudentControllerServlet HTTP/1.1" 200 6639
+0:0:0:0:0:0:0:1 - - [17/Nov/2020:13:45:35 +0530] "GET /web-student-tracker/css/style.css HTTP/1.1" 200 1056
+0:0:0:0:0:0:0:1 - - [17/Nov/2020:13:45:47 +0530] "GET /web-student-tracker/index.html HTTP/1.1" 200 235
+0:0:0:0:0:0:0:1 - - [17/Nov/2020:13:45:50 +0530] "GET /web-student-tracker/StudentControllerServlet HTTP/1.1" 200 5847
+0:0:0:0:0:0:0:1 - - [17/Nov/2020:13:46:09 +0530] "GET /web-student-tracker/StudentControllerServlet?command=LOAD&studentId=13 HTTP/1.1" 200 1483
+0:0:0:0:0:0:0:1 - - [17/Nov/2020:13:46:09 +0530] "GET /web-student-tracker/css/add-student-style.css HTTP/1.1" 200 566
+0:0:0:0:0:0:0:1 - - [17/Nov/2020:13:46:19 +0530] "GET /web-student-tracker/StudentControllerServlet HTTP/1.1" 200 5847
